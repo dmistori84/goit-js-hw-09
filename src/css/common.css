@@ -16,3 +16,23 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  margin: 20px 0;
+  display: flex;
+  text-align: center;
+}
+
+.field {
+  width: 100px;
+  display: inline-block;
+  flex-direction: column;
+  margin: 0 10px 0 0;
+}
+
+.value {
+  display: block;
+  font-size: 30px;
+  color: aquamarine;
+  background-color: #424242;
+}
